@@ -4,7 +4,7 @@
   <!-- <app-create [hidden]="!create_page" [editData]="editData" (showTable)="someFunction($event)"></app-create> -->
 <app-create *ngIf="create_page" [editData]="editData" (showTable)="someFunction($event)"></app-create>
 <a href="#" [routerLink]="['/crud_create',1]" [ngClass]="'btn btn-success btn-sm getLink'">Link get Method</a>
-
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis atque necessitatibus dignissimos ab impedit. Debitis sed rerum, dignissimos veniam laboriosam eveniet, nesciunt molestiae aliquid fugit quas hic dolorem corrupti voluptatibus.</p>
 <table [ngClass]="create_page ? 'dnone' : ''" class="table table-bordered">
     <thead>
       <tr class="active">
@@ -12,6 +12,7 @@
         <th>Employee Age</th>
         <th>Attendence Days</th>
         <th>Action</th>
+      
       </tr>
     </thead>
     <tbody>
