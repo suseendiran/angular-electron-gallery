@@ -1,0 +1,15 @@
+.heading{
+    font-size: 20px;
+    color:green;
+}
+
+.heading:hover{
+    font-size: 25px;
+    color:pink;
+}
+
+.text{
+    font-size: 25px;
+    color:red;
+    margin-top: 40px;
+}

@@ -1,0 +1,9 @@
+.heading{
+    font-size: 20px;
+    color:rgb(81, 141, 243);
+}
+
+.heading:hover{
+    font-size: 25px;
+    color:rgb(246, 5, 45);
+}
